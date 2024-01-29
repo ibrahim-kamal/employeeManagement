@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Controllers
 {
-    [AllowAnonymous]
+    //[AllowAnonymous]
     public class RoleanduserController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
@@ -17,6 +17,8 @@ namespace EmployeeManagement.Controllers
             this.usermanager = _usermanager;
         }
 
+        //[Authorize(Roles = "systemAdminsitrator")] // user or systemAdminsitrator
+        //[Authorize(Roles = "systemAdminsitrator")][Authorize(Roles = "user")] // user and systemAdminsitrator
         public async Task<String> all()
         {
             String _user = "";
@@ -27,6 +29,8 @@ namespace EmployeeManagement.Controllers
             }
             return _user;
         }
+
+        [Authorize(Roles = "systemAdminsitrator")]
         public async Task<String> index(String roleName)
         {
             String _user= "";
@@ -65,9 +69,31 @@ namespace EmployeeManagement.Controllers
         }
 
 
-        public async Task<String> RemoveRole()
+        public async Task<String> editUser()
         {
-            return "test";
+            var userId = "850c8d44-8f82-4c2e-b39f-e51583f6be11";
+            var usr = await usermanager.FindByIdAsync(userId);
+            usr.Email = "superAdmin@gmail.com";
+            await usermanager.UpdateAsync(usr);
+            return "edit";
+        }
+
+
+
+        public async Task<String> deleteRole()
+        {
+            var role = await roleManager.FindByNameAsync("admin");
+            await roleManager.DeleteAsync(role);
+            return "delete";
+        }
+
+        public async Task<String> deleteUser()
+        {
+            var userId = "9e6927c8-a0a0-4076-889a-0407e24f58af";
+            var usr = await usermanager.FindByIdAsync(userId);
+            usr.Email = "superAdmin@gmail.com";
+            await usermanager.DeleteAsync(usr);
+            return "delete";
         }
     }
 }

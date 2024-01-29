@@ -25,6 +25,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
+
+                        @if (usr.IsSignedIn(User))
+                        {
+                            
+                            @if (User.IsInRole("systemAdminsitrator"))
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Roleanduser" asp-action="index" asp-route-roleName="systemAdminsitrator">Admins</a>
+                                </li>
+                            }
+                            
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Roleanduser" asp-action="all">users</a>
+                            </li>
+                    }
+
                     </ul>
                 </div>
                 <div class="float-right">
