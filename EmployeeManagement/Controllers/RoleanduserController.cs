@@ -48,12 +48,14 @@ namespace EmployeeManagement.Controllers
         }
         public async Task<String> addUserToRole()
         {
-            String userId = "08ae6a08-83f6-4579-a960-a2d589bc9e97";
+            //String userId = "08ae6a08-83f6-4579-a960-a2d589bc9e97";
+
+            String userId = "c5a9936a-40c0-4a2a-88ff-3b3e4d6076c5";
             var user = await usermanager.FindByIdAsync(userId);
             await usermanager.AddToRoleAsync(user, "systemAdminsitrator");
-            userId = "850c8d44-8f82-4c2e-b39f-e51583f6be11";
-            user = await usermanager.FindByIdAsync(userId);
-            await usermanager.AddToRoleAsync(user, "systemAdminsitrator");
+            //userId = "850c8d44-8f82-4c2e-b39f-e51583f6be11";
+            //user = await usermanager.FindByIdAsync(userId);
+            //await usermanager.AddToRoleAsync(user, "systemAdminsitrator");
             return "added";
         }
         public async Task<String> RomoveUsersInRole()
@@ -94,6 +96,21 @@ namespace EmployeeManagement.Controllers
             usr.Email = "superAdmin@gmail.com";
             await usermanager.DeleteAsync(usr);
             return "delete";
+        }
+
+
+        public async Task<String> getUserRoles() {
+            string roles = "";
+            //String userId = "08ae6a08-83f6-4579-a960-a2d589bc9e97";
+            String userId = "c5a9936a-40c0-4a2a-88ff-3b3e4d6076c5";
+
+            var user = await usermanager.FindByIdAsync(userId);
+            var _roles = await usermanager.GetRolesAsync(user);
+            foreach (var role in _roles)
+            {
+                roles += role + "\n";
+            }
+            return roles;
         }
     }
 }

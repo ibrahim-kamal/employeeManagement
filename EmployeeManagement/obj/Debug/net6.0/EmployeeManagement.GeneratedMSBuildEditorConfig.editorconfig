@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeManagement
 build_property.RootNamespace = EmployeeManagement
 build_property.ProjectDir = D:\C#\C#10\EmployeeManagement\EmployeeManagement\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -54,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#/C\#10/EmployeeManagement/EmployeeManagement/Views/Administration/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/C\#10/EmployeeManagement/EmployeeManagement/Views/Calim/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaW1cY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/C\#10/EmployeeManagement/EmployeeManagement/Views/Calim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/C\#10/EmployeeManagement/EmployeeManagement/Views/Home/Index.cshtml]

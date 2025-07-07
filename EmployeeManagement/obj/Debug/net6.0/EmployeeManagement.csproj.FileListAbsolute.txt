@@ -72,3 +72,6 @@ D:\C#\C#10\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManage
 D:\C#\C#10\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
 D:\C#\C#10\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
 D:\C#\C#10\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\C#\C#10\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\C#\C#10\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\C#\C#10\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

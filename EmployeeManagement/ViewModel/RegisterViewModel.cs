@@ -8,7 +8,7 @@ namespace EmployeeManagement.ViewModel
     {
         [Required]
         [EmailAddress]
-        [EmailValidationDomain(AllowDomain:"test.com" , ErrorMessage = "Email Domain Not Valid")]
+        //[EmailValidationDomain(AllowDomain:"test.com" , ErrorMessage = "Email Domain Not Valid")]
         public string Email { get; set; }
 
         [Required]
