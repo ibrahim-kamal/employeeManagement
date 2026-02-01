@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EmployeeManagement/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/EmployeeManagement/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll

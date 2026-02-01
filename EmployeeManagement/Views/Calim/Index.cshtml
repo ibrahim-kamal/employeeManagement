@@ -1,0 +1,17 @@
+﻿@model IList<IdentityRole>
+@{
+    ViewBag.Title = "View Roles";
+}
+
+<ul>
+    @{
+        int i = 0;
+    };
+@foreach(IdentityRole role in Model)
+{
+    
+        i = i + 1;
+
+    <li>@i -@role.Name</li>
+}
+</ul>

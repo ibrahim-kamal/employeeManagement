@@ -14,7 +14,7 @@ namespace EmployeeManagement.Models
             : base(options)
         {
         }
-
+        public DbSet<IdentityUserClaim<string>> identityUserClaims { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

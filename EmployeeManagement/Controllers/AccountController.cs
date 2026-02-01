@@ -13,11 +13,13 @@ namespace EmployeeManagement.Controllers
     {
         private readonly UserManager<Models.ApplicationUser> userManager;
         private readonly SignInManager<Models.ApplicationUser> signInManager;
+        private readonly IAuthorizationService service;
 
-        public AccountController(UserManager<Models.ApplicationUser> userManager , SignInManager<Models.ApplicationUser> signInManager)
+        public AccountController(IAuthorizationService _service,UserManager<Models.ApplicationUser> userManager , SignInManager<Models.ApplicationUser> signInManager)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
+            this.service = _service;
         }
         [HttpGet]
         [Route("register")]
@@ -118,6 +120,27 @@ namespace EmployeeManagement.Controllers
             var _identity = HttpContext.User.Identity;
             //HttpContext.User.Identity.IsAuthenticated = true;
             return Ok("Guest logged in");
+        }
+
+
+        public async Task<string> profile() {
+            var usr = HttpContext.User;
+
+            var user = await userManager.GetUserAsync(HttpContext.User);
+            //Console.WriteLine(usr.Identity.Name);
+            return user.Id + " :" + user.gender + " :" + user.Email;
+        }
+
+        public async Task<String> HasClaim( string ClaimType) {
+            var result = "No";
+            
+            var claim = await service.AuthorizeAsync(User, ClaimType);
+            if (claim.Succeeded) {
+                result = "yes";
+            }
+            
+
+            return result; 
         }
 
 
