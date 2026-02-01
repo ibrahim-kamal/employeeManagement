@@ -1,8 +1,10 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagement.ViewModel;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace EmployeeManagement.Controllers
 {
@@ -92,6 +94,30 @@ namespace EmployeeManagement.Controllers
         {
             await signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        [Route("loginGuest")]
+        public async Task<IActionResult> loginGuest()
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.Email, "test@t.com"),
+                new Claim(ClaimTypes.Name, "Guest"),
+                new Claim(ClaimTypes.Role, "Guest")
+            };
+
+            var identity = new ClaimsIdentity(claims, "GuestScheme");
+            var principal = new ClaimsPrincipal(identity);
+            
+            
+            var user = new ApplicationUser { UserName = "Guest", Email = "test@t.com" };
+            await signInManager.SignInAsync(user, true);
+            //await HttpContext.SignInAsync("GuestScheme", principal);
+            var _identity = HttpContext.User.Identity;
+            //HttpContext.User.Identity.IsAuthenticated = true;
+            return Ok("Guest logged in");
         }
 
 

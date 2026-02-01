@@ -9,12 +9,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddAuthentication("GuestScheme")
+    .AddCookie("GuestScheme", options =>
+    {
+        options.LoginPath = "/auth/guest-login";
+        options.AccessDeniedPath = "/auth/denied";
+    });
+
+builder.Services.AddAuthorization();
+
 builder.Services.AddMvcCore(
-    config => {
-        var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-        config.Filters.Add(new AuthorizeFilter(policy));
-    }
-    );
+    //config => {
+    //    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+    //    config.Filters.Add(new AuthorizeFilter(policy));
+    //}
+);
 builder.Services.AddDbContext<ApplicationDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("local"));
 });

@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\utilities\\emailvalidationdomainattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\utilities\\emailvalidationdomainattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ibrahim kamal\\AppData\\Local\\SourceServer\\1e887826d4fe7b5c04f6e3858e41fd8786f0a2dd12de2d83a7ca076dbb1b9a3c\\EmployeeManagement\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\controllers\\roleandusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\roleandusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\views\\administration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\administration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\migrations\\20240103215313_applicationuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\migrations\\20240103215313_applicationuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\ibrahim kamal\\source\\repos\\employeemanagement\\employeemanagement\\viewmodel\\usersrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C8FF23-8975-4C33-9B53-1C818528D869}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\viewmodel\\usersrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 322,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-01T17:26:25.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\AppData\\Local\\SourceServer\\1e887826d4fe7b5c04f6e3858e41fd8786f0a2dd12de2d83a7ca076dbb1b9a3c\\EmployeeManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\1e887826d4fe7b5c04f6e3858e41fd8786f0a2dd12de2d83a7ca076dbb1b9a3c\\EmployeeManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\AppData\\Local\\SourceServer\\1e887826d4fe7b5c04f6e3858e41fd8786f0a2dd12de2d83a7ca076dbb1b9a3c\\EmployeeManagement\\Controllers\\AccountController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\1e887826d4fe7b5c04f6e3858e41fd8786f0a2dd12de2d83a7ca076dbb1b9a3c\\EmployeeManagement\\Controllers\\AccountController.cs [Read Only]",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAGMAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T17:07:47.476Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailValidationDomainAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Utilities\\EmailValidationDomainAttribute.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Utilities\\EmailValidationDomainAttribute.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Utilities\\EmailValidationDomainAttribute.cs",
+              "RelativeToolTip": "EmployeeManagement\\Utilities\\EmailValidationDomainAttribute.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADgvw4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T16:27:53.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T16:27:30.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeToolTip": "EmployeeManagement\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Views\\Administration\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Administration\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Views\\Administration\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Administration\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T18:30:04.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T18:30:04.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T18:30:04.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "EmployeeManagement\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240103215313_ApplicationUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Migrations\\20240103215313_ApplicationUser.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Migrations\\20240103215313_ApplicationUser.Designer.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Migrations\\20240103215313_ApplicationUser.Designer.cs",
+              "RelativeToolTip": "EmployeeManagement\\Migrations\\20240103215313_ApplicationUser.Designer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdministrationController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\AdministrationController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\AdministrationController.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\AdministrationController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\AdministrationController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleanduserController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\RoleanduserController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\RoleanduserController.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\RoleanduserController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\RoleanduserController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwFQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswHIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersRole.cs",
+              "DocumentMoniker": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\ViewModel\\UsersRole.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\ViewModel\\UsersRole.cs",
+              "ToolTip": "C:\\Users\\ibrahim kamal\\source\\repos\\employeeManagement\\EmployeeManagement\\ViewModel\\UsersRole.cs",
+              "RelativeToolTip": "EmployeeManagement\\ViewModel\\UsersRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:30:04.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

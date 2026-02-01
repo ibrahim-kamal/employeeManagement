@@ -13,9 +13,10 @@ namespace EmployeeManagement.Controllers
             return View();
         }
         [Route("users")]
-        //[Authorize]
+        [Authorize]
         public string users()
         {
+            var claims = User.Claims;
             return "users";
         }
 
